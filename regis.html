@@ -1,0 +1,95 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>  
+body{  
+  font-family: Calibri,arial, sans-serif;  
+  background-color:white;  
+}  
+.container {  
+    padding:10px;  
+  background-color: lightblue;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding:15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border:10px;  
+}   
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.submitbtn {  
+  background-color: #4CAF50;  
+  color:pale green;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border:groove;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.submitbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+<form>  
+  <div class="container">  
+  <center>  <h1> Student Information Form</h1> </center>  
+  <hr>  
+  <label> Student name </label>   
+<input type="text" name="student name" placeholder= "enter name"required/> 
+<label> ROLL NO.</label>   
+<input type="text" name="Roll no" placeholder= "enter roll no."required/>   
+<label> MOTHER'S NAME </label>   
+<input type="text" name="mother name" placeholder="Enter Mother name"required />   
+<label>Father's name:</label>
+<input type ="text" name="Father's name" placeholder="Enter Father's name"required/>
+<label>Mobile Number:</label>
+<input type ="text" name="Mobile Number" placeholder="Enter Mobile Number"required/>
+<label>Aadhar number:</label>
+<input type ="text" name="Aadhar number" placeholder="Enter Aadhar number" size="12" required/>  
+<div>  
+<label>Branch</label>   
+<select>  
+<option value="branch">branch</option>  
+<option value="cse">cse</option>  
+<option value="EEE">EEE</option>  
+<option value="ECE">ECE</option>  
+<option value="CST">CST</option>  
+<option value="CIVIL">CIVIL</option>  
+<option value="MECHANICAL">MECHANICAL</option>  
+</select>  
+</div> 
+<br> 
+<div>  
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+</div>
+<br>  
+<label>   
+Phone :  
+</label>    
+<input type="text" name="phone" placeholder="enter phone no." size="10" required/>   
+Current Address :  
+<textarea cols="40" rows="3" placeholder="Current Address" value="address" required/>  
+</textarea>  
+ <label for="email"><b>Email</b></label>  
+ <input type="text" name="email" placeholder="Enter Email" required/>
+    <button type="submit" class="submitbtn">submit</button>    
+</form>  
+</body>  
+</html> 
